@@ -8,11 +8,11 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Data
-@Document(value = "caixa-diario")
+@Document(value = "caixaDiario")
 public class CaixaEntity {
 
     @Id
     private String id;
     private BigDecimal valorCaixa;
-    private LocalDateTime dataCaixa;
+    private String dataCaixa;
 }

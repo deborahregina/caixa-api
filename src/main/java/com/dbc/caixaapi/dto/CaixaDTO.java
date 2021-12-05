@@ -11,5 +11,5 @@ import java.time.LocalDateTime;
 public class CaixaDTO {
     private String id;
     private BigDecimal valorCaixa;
-    private LocalDateTime dataCaixa;
+    private String dataCaixa;
 }
